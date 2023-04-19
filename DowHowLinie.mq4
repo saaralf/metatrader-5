@@ -8,15 +8,15 @@
 
 #property indicator_chart_window
 #property indicator_buffers  9
-#property indicator_color1   clrMediumSeaGreen
+#property indicator_color1   clrOrangeRed
 #property indicator_color2   clrOrangeRed
 #property indicator_color3   clrOrangeRed
 #property indicator_color4   clrMediumSeaGreen
-#property indicator_color5   clrOrangeRed
-#property indicator_color6   clrOrangeRed
-#property indicator_color7   clrMediumSeaGreen
-#property indicator_color8   clrOrangeRed
-#property indicator_color9   clrOrangeRed
+#property indicator_color5   clrMediumSeaGreen
+#property indicator_color6   clrMediumSeaGreen
+//#property indicator_color7   clrMediumSeaGreen
+//#property indicator_color8   clrOrangeRed
+//#property indicator_color9   clrOrangeRed
 #property indicator_width7   2
 #property indicator_width8   2
 #property indicator_width9   2
