@@ -131,7 +131,7 @@ int OnCalculate(
 if (pruefeLONGKerze(ExtLBuffer[i-1],  ExtHBuffer[i-1] ,   ExtOBuffer[i-1],  ExtCBuffer[i-1]) || pruefeSHORTKerze(ExtLBuffer[i-1],  ExtHBuffer[i-1] ,   ExtOBuffer[i-1],  ExtCBuffer[i-1])){
 if (i==rates_total-1 && !gemeldet ){
   Print("rates_total-1 Ausgleichkerze");
-   //   PlaySound(InpFileNameOK);
+      PlaySound(InpFileNameOK);
    gemeldet=true;
    }else {
    gemeldet=false;
